@@ -21,16 +21,4 @@
   <sonar.host.url>http://localhost:9000</sonar.host.url>
   <sonar.java.binaries>P:\Users\vshirodk\Desktop\consumerBanking\src</sonar.java.binaries>
   </properties>
-  <distributionManagement>
-  		<repository>
-    	 	<id>deployment</id>
-    	 	<name>Internal Releases</name>
-   		 	<url>http://10.207.173.52:8085/repository/maven-releases/</url>
-  		</repository>
- 		<snapshotRepository>
-     		<id>deployment</id>
-     		<name>Internal Releases</name>
-     		<url>http://10.207.173.52:8085/repository/maven-snapshots/</url>
-  		</snapshotRepository>
-	</distributionManagement>
 </project>
